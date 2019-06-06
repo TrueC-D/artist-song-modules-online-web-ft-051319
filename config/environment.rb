@@ -10,5 +10,8 @@ require_relative '../lib/song.rb'
 song = Song.new
 artist = Artist.new
 
-puts Artist.metadata, Artist.find, artist.to_param
-puts Song.metadata, Song.find, song.to_param
+song.to_param
+artist.to_param
+
+puts Artist.metadata, Artist.find
+puts Song.metadata, Song.find
