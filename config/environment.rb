@@ -7,11 +7,3 @@ require 'pry'
 require_relative '../lib/artist.rb'
 require_relative '../lib/song.rb'
 
-song = Song.new
-artist = Artist.new
-
-song.to_param
-artist.to_param
-
-puts Artist.metadata, Artist.find
-puts Song.metadata, Song.find
